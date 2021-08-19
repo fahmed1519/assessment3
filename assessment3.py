@@ -20,4 +20,6 @@ if isinstance(a1, int) and isinstance(a2, int) and isinstance(a3, int):
    else:
       grade = "ERROR"
 else:
-   return "ERROR"
+   grade = "ERROR"
+
+print("Student Grade:", grade)
