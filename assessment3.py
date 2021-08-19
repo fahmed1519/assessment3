@@ -19,6 +19,5 @@ if isinstance(a1, int) and isinstance(a2, int) and isinstance(a3, int):
       grade = "F"
    else:
       grade = "ERROR"
-   return grade
 else:
    return "ERROR"
