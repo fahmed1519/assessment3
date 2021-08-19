@@ -1,8 +1,8 @@
 #Python Program for the purpose of the DevOps Assignment 3
 
-a1 = int(input("Enter the Assessment 1 Marks:"))
-a2 = int(input("Enter the Assessment 2 Marks:"))
-a3 = int(input("Enter the Assessment 3 Marks:"))
+a1 = 89
+a2 = 78
+a3 = 67
 
 if isinstance(a1, int) and isinstance(a2, int) and isinstance(a3, int):
    total_marks = (a1 * 20 + a2 * 40 + a3 *40)/100  
@@ -22,4 +22,4 @@ if isinstance(a1, int) and isinstance(a2, int) and isinstance(a3, int):
 else:
    grade = "ERROR"
 
-print("Student Grade:", grade)
+print("Student Total Marks and Grade:", total_marks, grade)
