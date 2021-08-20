@@ -41,13 +41,13 @@ class tes1TestSuite(unittest.TestCase):
         result = self.calculator.calculateGrade(50, 50, 40)
         self.assertEqual(result, "F")
 
-    def test_negative_integers(self):
-        result = self.calculator.calculateGrade(-5, -6, -10)
-        self.assertEqual(result, "F")
+    #def test_negative_integers(self):
+        #result = self.calculator.calculateGrade(-5, -6, -10)
+        #self.assertEqual(result, "F")
 
-    def test_absent_string(self):
-        result = self.calculator.calculateGrade("A", "A", "A")
-        self.assertEqual(result, "F")
+    #def test_absent_string(self):
+        #result = self.calculator.calculateGrade("A", "A", "A")
+        #self.assertEqual(result, "F")
 
 
 if __name__ == "__main__":
